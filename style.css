@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.box1{
+    background-color: lightgray;
+    border-radius: 2%;
+    border: 10px blanchedalmond;
+    border-width: 5px;
+    border-style: dashed;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    font-family: "Andale Mono", monospace;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+hr {
+  width: auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10%;
+  text-decoration: none;
+  color: initial;
+  background-color: khaki;
+  padding: 5px;
+}
+
+a.button:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.box1:hover
+{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+#picture {
+    width: 80%;
+    position: relative;
+    padding: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
